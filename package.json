@@ -1,0 +1,12 @@
+{
+  "name": "uno-pollen",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "npx pollen"
+  },
+  "devDependencies": {
+    "@unocss/core": "^0.48.3",
+    "pollen-css": "^4.6.2"
+  },
+  "type": "module"
+}
