@@ -6,7 +6,16 @@
   },
   "devDependencies": {
     "@unocss/core": "^0.48.3",
-    "pollen-css": "^4.6.2"
+    "@unocss/preset-icons": "^0.48.5",
+    "@unocss/transformer-directives": "^0.48.5",
+    "@unocss/vite": "^0.48.5",
+    "pollen-css": "^4.6.2",
+    "vite": "^4.0.4"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@fontsource/fira-mono": "^4.5.10",
+    "@fontsource/inter": "^4.5.15",
+    "@fontsource/montserrat": "^4.5.14"
+  }
 }
