@@ -8,7 +8,7 @@ Use [Pollen's](pollen.style) CSS variables with [Uno CSS](https://github.com/uno
 ### Install deps
 
 ```sh
-ni -D @unocss/core pollen-css @unocss/preset-icons @unocss/transformer-directives @unocss/vite sass
+ni -D @unocss/core pollen-css @unocss/preset-icons @unocss/transformer-directives @unocss/vite sass @iconify-json
 ```
 
 ### (Optional) install fonts
