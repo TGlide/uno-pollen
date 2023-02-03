@@ -2,7 +2,6 @@
 
 Use [Pollen's](pollen.style) CSS variables with [Uno CSS](https://github.com/unocss/unocss). Uses [colar](https://github.com/fchristant/colar) colors.
 
-
 ## Configuration
 
 ### Install deps
@@ -19,24 +18,24 @@ ni @fontsource/montserrat @fontsource/inter @fontsource/fira-mono
 
 ### Copy over files
 
-Copy `pollen.config.js`, `uno.config.ts`, the `uno` folder, and the `src/styles` folder to your project. Optionally copy the `.vscode` folder.
+Copy everything from the `COPY` folder to your project.
 
 ### Add to `vite.config.js`
 
 ```js
-import Unocss from '@unocss/vite';
-import unoConfig from './uno.config';
+import Unocss from "@unocss/vite";
+import unoConfig from "./uno.config";
 
 /** @type {import('vite').UserConfig} */
 const config = {
   // ...
-	plugins: [
+  plugins: [
     // UnoCSS must be at the top!
-		Unocss({
-			...unoConfig,
-		}),
+    Unocss({
+      ...unoConfig,
+    }),
     // ...
-	],
+  ],
   // ...
 };
 
@@ -48,8 +47,8 @@ export default config;
 In your `main.js` or `main.ts` file, import the necessary styles.
 
 ```js
-import 'src/styles/index.scss';
-import 'uno.css';
+import "src/styles/index.scss";
+import "uno.css";
 ```
 
 ## Usage
